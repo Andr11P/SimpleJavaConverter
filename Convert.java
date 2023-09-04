@@ -26,7 +26,7 @@ public class Convert{
         System.out.println("Enter 1 to convert Farenheit to celsius");
 
         do{
-            System.out.println("\nEnter number one please: ");
+            System.out.println("\nEnter number one for converting FahrenheitToClesius or enter number 2 to convert CelsiusToFahrenheit: ");
             int Temperature_Choice = sc.nextInt();
             double Choice_Number = 0;
             switch(Temperature_Choice){
