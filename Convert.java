@@ -26,18 +26,21 @@ public class Convert{
         System.out.println("Enter 1 to convert Farenheit to celsius");
 
         do{
-            System.out.println("\nEnter number one for converting FahrenheitToClesius or enter number 2 to convert CelsiusToFahrenheit: ");
+            System.out.println("\nEnter number 1 for converting FahrenheitToClesius or enter number 2 to convert CelsiusToFahrenheit: ");
             int Temperature_Choice = sc.nextInt();
             double Choice_Number = 0;
             switch(Temperature_Choice){
                 case 1: Choice_Number = Input_Temperature("Fahrenheit");
                     Output_Temperature(Fahrenheit_to_Celcius(Choice_Number), "Celcius");
                     break;
+                    
                 case 2: Choice_Number = Input_Temperature("Celcius");
                 Output_Temperature(Celcius_to_Fahrenheit(Choice_Number), "Fahrenheit");
                 break;
+                    
                 case 7: System.exit(0);
                     break;
+                    
                 default: System.out.println("Invalid Input");
             }
         }
