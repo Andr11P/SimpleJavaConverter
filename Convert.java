@@ -16,7 +16,6 @@ public class Convert{
         double val = sc.nextDouble();
         return val;
     }
-
     
     static void Output_Temperature(double Value, String Temperature){
         System.out.println("The " + Temperature + " value is: " + Value);
@@ -44,8 +43,6 @@ public class Convert{
                 default: System.out.println("Invalid Input");
             }
         }
-            
         while(true);
-
     }
 }
