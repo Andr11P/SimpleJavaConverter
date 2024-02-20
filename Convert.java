@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Convert{
     static Scanner sc = new Scanner(System.in);
 
